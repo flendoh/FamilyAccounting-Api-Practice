@@ -5,6 +5,7 @@ from .PlanDeAhorro import PlanDeAhorro
 class Familia(BaseModel):
     id: int
     nombreFamilia: Optional[str] = None
+    presupuestoFamiliar: Optional[float] = 0.0
     cabezaFamilia: int = None
     listaMiembros: Optional[list] = []
     listaPlanDeAhorro: Optional[list] = []
