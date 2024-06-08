@@ -6,4 +6,5 @@ class PlanDeAhorro(BaseModel):
     ahorro: float
     duracion: int
     frecuencia: int
+    progreso: int = 0;
     descripcion: Optional[str] = None
