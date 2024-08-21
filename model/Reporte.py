@@ -16,7 +16,6 @@ class Reporte:
         for cabeza in listaUsuarios:
             if familia.cabezaFamilia == cabeza.id:
                 self.cabeza_familia: Usuario = cabeza
-                self.presupuesto_total += cabeza.presupuesto
                 pass
 
         self.miembros: List[Usuario] = []
